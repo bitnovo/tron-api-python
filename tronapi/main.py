@@ -15,7 +15,6 @@
     :license: MIT License
 """
 
-from eth_account.datastructures import AttributeDict
 from urllib.parse import urlencode
 from eth_utils import (
     apply_to_return_value,
@@ -36,6 +35,7 @@ from tronapi.common.abi import map_abi_data
 
 
 from tronapi.common.account import Address, PrivateKey, Account
+from tronapi.common.datastructures import AttributeDict
 from tronapi.common.normalizers import abi_resolver
 from tronapi.common.encoding import (
     to_bytes,
